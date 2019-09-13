@@ -1,0 +1,7 @@
+<form [formGroup]="signup" (ngSubmit)="submit()">
+
+  <lib-file-upload formControlName="image"></lib-file-upload>
+
+  <button [disabled]="!signup.valid">Submit</button>
+
+</form>

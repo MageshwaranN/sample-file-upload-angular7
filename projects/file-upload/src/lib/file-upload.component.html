@@ -1,0 +1,10 @@
+<div>
+    <div>
+        <span>Choose file</span>
+        <span>{{file ? file.name : 'or drag and drop file here' }}</span>
+        <input class="file-input" type="file">
+    </div>
+    <div>{{error ? error : '' }}</div>
+    <div>{{uploadStatus ? uploadStatus : '' }}</div>
+    <!-- <app-progress [progress]="progress"></app-progress> -->
+</div>
